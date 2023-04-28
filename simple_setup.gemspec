@@ -49,6 +49,11 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'dry-monads', '~> 1.6'
   spec.add_dependency 'dry-struct', '~> 1.6'
   spec.add_dependency 'dry-validation', '~> 1.10'
+  # grape
+  spec.add_dependency 'grape', '~> 1.7'
+  # swagger for grape
+  spec.add_dependency 'grape-swagger', '~> 1.5'
+  spec.add_dependency 'grape-swagger-rails', '~> 0.3.1'
 
   # dev dependency only
   # rubocop for linter
@@ -61,4 +66,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'faker', '~> 3.1', '>= 3.1.1'
   # help to kill N+1 queries and unused eager loading.
   spec.add_development_dependency 'bullet', '~> 7.0', '>= 7.0.7'
+  # rspec for unit test
+  spec.add_development_dependency 'rspec', '~> 3.12'
+  spec.add_development_dependency 'rspec-rails', '~> 6.0', '>= 6.0.1'
 end
