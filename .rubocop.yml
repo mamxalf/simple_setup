@@ -25,6 +25,8 @@ Metrics/AbcSize:
   Max: 30
 RSpec/FilePath:
   Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false
 
 Bundler/InsecureProtocolSource:
   Enabled: true

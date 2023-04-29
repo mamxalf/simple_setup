@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Users::UseCases::GetListUsers < Abstracts::UseCase
+class Users::UseCases::GetListUsers < SimpleSetup::UseCase
   def initialize(params:)
     @params = params
   end
