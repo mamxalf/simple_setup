@@ -1,9 +1,7 @@
+inherit_from: .rubocop_todo.yml
 require:
-  - rubocop-rake
-  - rubocop-rspec
-  - rubocop-performance
   - rubocop-rails
-
+  - rubocop-performance
 AllCops:
   SuggestExtensions: false
   NewCops: enable
@@ -23,8 +21,6 @@ Rails/I18nLocaleTexts:
   Enabled: false
 Metrics/AbcSize:
   Max: 30
-RSpec/FilePath:
-  Enabled: false
 
 Bundler/InsecureProtocolSource:
   Enabled: true
@@ -1121,6 +1117,5 @@ Naming/MethodParameterName:
 
 Layout/ClassStructure:
   Enabled: true
-
 
 

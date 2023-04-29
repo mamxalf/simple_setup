@@ -1,3 +1,3 @@
 # frozen_string_literal: true
 
-puts 'PING'
+Rails.logger.debug 'PING'
